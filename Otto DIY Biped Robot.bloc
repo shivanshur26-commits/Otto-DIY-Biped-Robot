@@ -1,0 +1,115 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <toolbox>toolbox_arduino_all</toolbox>
+  <block type="otto_configuration" id="NIly4QRH=#;?O{g.fgC~" x="-31" y="-93">
+    <field name="PIN_YL">2</field>
+    <field name="PIN_YR">3</field>
+    <field name="PIN_RL">4</field>
+    <field name="PIN_RR">5</field>
+    <field name="PIN_Buzzer">13</field>
+    <next>
+      <block type="ultrasonic_sensor" id="+dAgPthprEhatwf(xMnf">
+        <field name="US_NUMBER">1</field>
+        <field name="PIN_TRIG">8</field>
+        <field name="PIN_ECHO">9</field>
+        <next>
+          <block type="RTTTL_music" id=":q]y6=ZjOr?|i6c;JZ)|">
+            <field name="PIN_BUZZER">13</field>
+            <field name="MELODY">StarWars</field>
+            <next>
+              <block type="otto_home" id="/}KwG:39)fCh29uQ6N0E">
+                <next>
+                  <block type="otto_move" id="XdyEmL}-nJ[Pd0{rY@}D">
+                    <field name="otto_move_sens">FORWARD</field>
+                    <field name="otto_move_speed">1000</field>
+                    <next>
+                      <block type="otto_move" id="z]~VEB1h*5+KU$AULopC">
+                        <field name="otto_move_sens">LEFT</field>
+                        <field name="otto_move_speed">1000</field>
+                        <next>
+                          <block type="otto_move" id="VlNwIwc[X,-(d^+I+w4,">
+                            <field name="otto_move_sens">BENDLEFT</field>
+                            <field name="otto_move_speed">1000</field>
+                            <next>
+                              <block type="otto_move" id="YD4qd`7I1Ue_`Tp{$-(p">
+                                <field name="otto_move_sens">SHAKELEFT</field>
+                                <field name="otto_move_speed">1000</field>
+                                <next>
+                                  <block type="otto_move" id="|yqZ$rF]fpz/9ovO*!tX">
+                                    <field name="otto_move_sens">SHAKERIGHT</field>
+                                    <field name="otto_move_speed">1000</field>
+                                    <next>
+                                      <block type="otto_move" id="f,u1UJR5~d9NgF:,xOF4">
+                                        <field name="otto_move_sens">BENDRIGHT</field>
+                                        <field name="otto_move_speed">1000</field>
+                                        <next>
+                                          <block type="otto_move" id="$6N1%^_JmN:uho%r5bcD">
+                                            <field name="otto_move_sens">RIGHT</field>
+                                            <field name="otto_move_speed">1000</field>
+                                            <next>
+                                              <block type="otto_move" id="QVhcvY=bZ7mRLHDyo+:c">
+                                                <field name="otto_move_sens">BACKWARD</field>
+                                                <field name="otto_move_speed">1000</field>
+                                                <next>
+                                                  <block type="otto_move" id="?-TJesLrA{3x|}U:WP@|">
+                                                    <field name="otto_move_sens">jump</field>
+                                                    <field name="otto_move_speed">1000</field>
+                                                    <next>
+                                                      <block type="otto_dance" id="W!T@C28fq!r,@I5;BI((">
+                                                        <field name="otto_dance_movement">moonwalkerLEFT</field>
+                                                        <field name="otto_move_speed">1000</field>
+                                                        <field name="otto_dance_size">25</field>
+                                                        <next>
+                                                          <block type="otto_do" id="fvJ}zu=vM?c9PeBmcYrT">
+                                                            <field name="otto_do_movement">swing</field>
+                                                            <field name="otto_move_speed">1000</field>
+                                                            <field name="otto_dance_size">25</field>
+                                                            <next>
+                                                              <block type="otto_sound" id="S$ht#+Ljz,ibD9=5z^QB">
+                                                                <field name="otto_sound">S_superHappy</field>
+                                                                <next>
+                                                                  <block type="otto_tone" id=".~CyKB?G!%faS)2+xre:">
+                                                                    <field name="otto_note">262</field>
+                                                                    <field name="otto_note_duration">125</field>
+                                                                    <next>
+                                                                      <block type="otto9_smooth" id=";|i}XLg12{CS-L-1$=dZ">
+                                                                        <next>
+                                                                          <block type="otto_gesture" id="+:H{|PoTbq|_DVq+i,wL">
+                                                                            <field name="otto_gesture">OttoSuperHappy</field>
+                                                                          </block>
+                                                                        </next>
+                                                                      </block>
+                                                                    </next>
+                                                                  </block>
+                                                                </next>
+                                                              </block>
+                                                            </next>
+                                                          </block>
+                                                        </next>
+                                                      </block>
+                                                    </next>
+                                                  </block>
+                                                </next>
+                                              </block>
+                                            </next>
+                                          </block>
+                                        </next>
+                                      </block>
+                                    </next>
+                                  </block>
+                                </next>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </next>
+  </block>
+</xml>
